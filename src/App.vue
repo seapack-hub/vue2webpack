@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <IndexView></IndexView>
+  <slot-component></slot-component>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import IndexView from './views/index.vue'
+import SlotComponent from "@/views/slotComponent/index.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,IndexView,SlotComponent
   }
 }
 </script>
