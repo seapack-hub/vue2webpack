@@ -1,6 +1,5 @@
 <template>
-  <IndexView></IndexView>
-  <slot-component></slot-component>
+  <router-view></router-view>
 </template>
 
 <script>

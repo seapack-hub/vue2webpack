@@ -1,14 +1,15 @@
 <script>
+//导入主页
+import Home from "@/views/home/index.vue";
 export default {
-  name:'index'
+  name:'index',
+  components:{Home}
 }
 
 </script>
 
 <template>
-  <div>
-    <h1>烈风逍遥的主页</h1>
-  </div>
+  <home></home>
 </template>
 
 <style scoped>
