@@ -13,5 +13,9 @@ export default {
 </template>
 
 <style scoped>
-
+*{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
 </style>
