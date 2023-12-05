@@ -1,15 +1,17 @@
 <script>
 //导入主页
 import Home from "@/views/home/index.vue";
+import Css3 from '@/views/css3Animation/index.vue'
 export default {
   name:'index',
-  components:{Home}
+  components:{Home,Css3}
 }
 
 </script>
 
 <template>
-  <home></home>
+<!--  <home></home>-->
+  <css3></css3>
 </template>
 
 <style scoped>

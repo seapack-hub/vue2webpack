@@ -17,7 +17,11 @@ export default {
 
 <template>
   <div class="carousel">
-    <Carousel v-model="value" loop height="100%">
+    <Carousel v-model="value"
+              autoplay="autoplay"
+              arrow="never"
+              radius-dot="radius-dot"
+              height="100%">
       <CarouselItem class="carousel-item">
         <first-demo></first-demo>
       </CarouselItem>
