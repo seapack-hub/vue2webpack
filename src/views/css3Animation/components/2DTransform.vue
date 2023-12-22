@@ -201,5 +201,6 @@ export default {
 .origin:hover{
   transform: rotate(-90deg);
   transform-origin: 0 0;
+
 }
 </style>
