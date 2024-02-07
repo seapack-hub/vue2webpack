@@ -1,12 +1,8 @@
 export default [
-    //主页
-    {
-        path:'/',
-        component:()=>import('@/views/index.vue')
-    },
     //插槽的使用
     {
-        path:'/slot',
+        path:'/slotComponents',
+        name:'slotComponents',
         component:()=>import('@/views/slotComponent/index.vue')
     }
 ]

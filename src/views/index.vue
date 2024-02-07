@@ -3,7 +3,7 @@
 import Home from "@/views/home/index.vue";
 import Css3 from '@/views/css3Animation/index.vue'
 export default {
-  name:'index',
+  name:'HomeMain',
   components:{Home,Css3}
 }
 

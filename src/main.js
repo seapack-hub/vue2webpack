@@ -9,7 +9,7 @@ import ViewUIPlus from 'view-ui-plus';
 import 'view-ui-plus/dist/styles/viewuiplus.css'
 
 //引入路由
-import router from "@/views/router";
+import router from "./router/index";
 
 const app = createApp(App);
 //使用elementPlus
